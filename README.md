@@ -9,6 +9,8 @@ With the spreading of COVID-19, face mask has becomea  regular  item  for  our  
     * sklearn
 
 ## Folder Structure
-dataset contains the data we use for our model. The data is from the Kaggle chalenge including 1923 images with mask and 1923 images without face mask.<br>
-mask_detect_exp.ipynb is the source code for processing data and train the model. The notebook was originally built in Google Colab, to run the notebook, please change file paths to the corresponding directory/folder. <br>
-.pkl are pickle file that generate from mask_detect_exp.ipynb, containing processed images in training set, validation set, and test set.<br>
+**dataset** contains the data we use for our model. The data is from the Kaggle chalenge including 1923 images with mask and 1923 images without face mask.<br>
+<br>
+**mask_detect_exp.ipynb** is the source code for processing data and train the model. The notebook was originally built in Google Colab, to run the notebook, please change file paths to the corresponding directory/folder. <br>
+<br>
+**.pkl** are pickle file that generate from mask_detect_exp.ipynb, containing processed images in training set, validation set, and test set.<br>

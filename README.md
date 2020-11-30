@@ -9,8 +9,7 @@ With the spreading of COVID-19, face mask has becomea  regular  item  for  our  
     * sklearn
 
 ## Folder Structure
-**dataset** contains the data we use for our model. The data is from the Kaggle chalenge including 1923 images with mask and 1923 images without face mask.<br>
+**dataset** contains the data we use for our model. The first source is Real-world Masked Face Dataset(RMFD). 5000 masked faces and 90,000 unmasked faces are consisted in the RMFD dataset. The second source is from Kaggle. We downloaded the picture of people wear face mask to increase the percentage of masked faces. We can get the dataset from https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset and https://www.kaggle.com/andrewmvd/face-mask-detection
+<br>
 <br>
 **mask_detect_exp.ipynb** is the source code for processing data and train the model. The notebook was originally built in Google Colab, to run the notebook, please change file paths to the corresponding directory/folder. <br>
-<br>
-**.pkl** are pickle file that generate from mask_detect_exp.ipynb, containing processed images in training set, validation set, and test set.<br>
